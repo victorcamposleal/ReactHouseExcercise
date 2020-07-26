@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import Casa from './casa';
-import Casas from './array';
+// import React, { useState } from 'react';
 
 
 // function Chimenea(props) {
@@ -91,32 +89,32 @@ import Casas from './array';
 // }
 // }
 
-// function Tejado(props) {
-//   let [tejas, setTejas] = useState(props.tejas);
-//   function cambiarTecho() {
-//     setTejas(!tejas);
-//   }
+// // function Tejado(props) {
+// //   let [tejas, setTejas] = useState(props.tejas);
+// //   function cambiarTecho() {
+// //     setTejas(!tejas);
+// //   }
 
-//   const conTejas = `    /^=^-^-^=^-^\\
-//    /^-^-^-^-^-^-^\\
-//   /__^_^_^_^^_^_^_\\`;
+// //   const conTejas = `    /^=^-^-^=^-^\\
+// //    /^-^-^-^-^-^-^\\
+// //   /__^_^_^_^^_^_^_\\`;
 
-//  const sinTejas = `    /           \\
-//    /             \\
-//   /__ _ _ _  _ _ _\\ `;
-// let techo;
-//  if (tejas === true) {
-//   techo = conTejas;
-//  } else {
-//    techo = sinTejas;
-//  }
-//     return (
-//     <>
-//     <code>{techo}</code>
-//   <button onClick={cambiarTecho}>Tejado</button>
-//   </>
-//     )
-// }
+// //  const sinTejas = `    /           \\
+// //    /             \\
+// //   /__ _ _ _  _ _ _\\ `;
+// // let techo;
+// //  if (tejas === true) {
+// //   techo = conTejas;
+// //  } else {
+// //    techo = sinTejas;
+// //  }
+// //     return (
+// //     <>
+// //     <code>{techo}</code>
+// //   <button onClick={cambiarTecho}>Tejado</button>
+// //   </>
+// //     )
+// // }
 
 // function Pared(props) {
 //   const ventanaCerrada = `
@@ -161,55 +159,54 @@ import Casas from './array';
 //   )
 // }
 
-function App() {
+// function App() {
 
-  // let casas = [
-  //   {
-  //     chimeneaEncendida: true,
-  //     chimeneaIzquierda: true,
-  //     tejas: true,
-  //     ventanaAbierta: true
-  //   },
-  //   {
-  //     chimeneaEncendida: false,
-  //     chimeneaIzquierda: false,
-  //     tejas: false,
-  //     ventanaAbierta: false
-  //   },
-  //   {
-  //     chimeneaEncendida: true,
-  //     chimeneaIzquierda: false,
-  //     tejas: true,
-  //     ventanaAbierta: false
-  //   },
-  //   {
-  //     chimeneaEncendida: true,
-  //     chimeneaIzquierda: false,
-  //     tejas: true,
-  //     ventanaAbierta: false
-  //   },
-  //   {
-  //     chimeneaEncendida: true,
-  //     chimeneaIzquierda: false,
-  //     tejas: true,
-  //     ventanaAbierta: false
-  //   }
-  // ];
-  // let casasJSX = casas.map(function(casa) {
-  //   return (
-  //     <Casa 
-  //       chimeneaEncendida={casa.chimeneaEncendida} 
-  //       chimeneaIzquierda={casa.chimeneaIzquierda}
-  //       tejas={casa.tejas}
-  //       ventanaAbierta={casa.ventanaAbierta}
-  //     />
-  //   )
-  // })
-  return (
-  <div>
-     <Casas/>
-  </div>
-  );
-}
-
-export default App;
+//   let casas = [
+//     {
+//       chimeneaEncendida: true,
+//       chimeneaIzquierda: true,
+//       tejas: true,
+//       ventanaAbierta: true
+//     },
+//     {
+//       chimeneaEncendida: false,
+//       chimeneaIzquierda: false,
+//       tejas: false,
+//       ventanaAbierta: false
+//     },
+//     {
+//       chimeneaEncendida: true,
+//       chimeneaIzquierda: false,
+//       tejas: true,
+//       ventanaAbierta: false
+//     },
+//     {
+//       chimeneaEncendida: true,
+//       chimeneaIzquierda: false,
+//       tejas: true,
+//       ventanaAbierta: false
+//     },
+//     {
+//       chimeneaEncendida: true,
+//       chimeneaIzquierda: false,
+//       tejas: true,
+//       ventanaAbierta: false
+//     }
+//   ];
+//   let casasJSX = casas.map(function(casa) {
+//     return (
+//       <Casa 
+//         chimeneaEncendida={casa.chimeneaEncendida} 
+//         chimeneaIzquierda={casa.chimeneaIzquierda}
+//         tejas={casa.tejas}
+//         ventanaAbierta={casa.ventanaAbierta}
+//       />
+//     )
+//   })
+//   return (
+//   <div>
+//     {casasJSX}
+//   </div>
+//   );
+// }
+// export default App;
